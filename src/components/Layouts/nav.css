@@ -1,0 +1,40 @@
+.li{
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+.navigation{
+    padding-right: 20px;
+    font-size: 15px;
+
+    }
+
+.navv{
+    background-color: gray;
+    border-radius: 5px;
+
+    /* padding: 2px; */
+}
+
+
+.underline-hover::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: block;
+   
+    
+}
+.underline-hover:hover::after{
+    width: 100%;
+
+    transition: width 0.25s linear;
+   
+}
+.underline-hover:hover{
+    color: rgb(255,255,255);
+
+}
